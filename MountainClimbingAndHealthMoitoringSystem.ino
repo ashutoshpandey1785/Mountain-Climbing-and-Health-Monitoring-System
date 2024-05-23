@@ -21,8 +21,8 @@ OneWire oneWire(PULSE_SENSOR);
 DallasTemperature sensors(&oneWire);
 TinyGPSPlus gps;
 
-const char *ssid = "Ashutosh";
-const char *password = "qwermnbv";
+const char *ssid = "Wifi Name";
+const char *password = "Wifi Password";
 
 const int I2C_ADDR = 0x27;
 const int LCD_COLS = 16;
